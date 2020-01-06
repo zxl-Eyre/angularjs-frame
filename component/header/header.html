@@ -1,0 +1,7 @@
+<div class="header-wrap">
+    <ul>
+        <li ng-class="{true:'active'}[item.id == headerConfig.activeId]" ng-click="clickCallback(item)" ng-repeat="item in headerConfig.items">
+            {{item.name}}
+        </li>
+    </ul>
+</div>

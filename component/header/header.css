@@ -1,0 +1,22 @@
+.header-wrap {
+  width: 100%;
+  height: 100%;
+}
+.header-wrap ul {
+  list-style: none;
+  display: flex;
+  background: #1A73E8;
+  padding: 0;
+  margin: 0 auto;
+}
+.header-wrap ul li {
+  flex-grow: 1;
+  flex-direction: row;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.header-wrap ul li.active {
+  background: #2850A7;
+}
